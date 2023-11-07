@@ -11,17 +11,17 @@ function Footer() {
     let date = new Date();
     let year = date.getFullYear();
     return (
-        <Container fluid className="footer">
+        <Container fluid className="footer ">
             <Row>
-                <Col md="4" className="footer-copywright">
+                <Col md="4" className="footer-copywright align-middle">
                     <h3>Designed and Developed by AbhiBhi</h3>
                 </Col>
-                <Col md="4" className="footer-copywright">
+                <Col md="4" className="footer-copywright align-middle">
                     <h3>Copyright © {year} </h3>
                 </Col>
-                <Col md="4" className="footer-body">
-                    <ul className="footer-icons">
-                        <li className="social-icons">
+                <Col md="4" className="footer-body align-middle">
+                    <ul className="footer-icons ">
+                        <ul className="social-icons ">
                             <a
                                 href="https://github.com/abhib4311"
                                 style={{ color: "white" }}
@@ -30,8 +30,8 @@ function Footer() {
                             >
                                 <AiFillGithub />
                             </a>
-                        </li>
-                        <li className="social-icons">
+                        </ul>
+                        <ul className="social-icons ">
                             <a
                                 // href="#"
                                 style={{ color: "white" }}
@@ -40,8 +40,8 @@ function Footer() {
                             >
                                 <AiOutlineTwitter />
                             </a>
-                        </li>
-                        <li className="social-icons">
+                        </ul>
+                        <ul className="social-icons ">
                             <a
                                 href="https://www.linkedin.com/in/abhishek-singh-7b442622a"
                                 style={{ color: "white" }}
@@ -50,8 +50,8 @@ function Footer() {
                             >
                                 <FaLinkedinIn />
                             </a>
-                        </li>
-                        <li className="social-icons">
+                        </ul>
+                        <ul className="social-icons ">
                             <a
                                 href="https://www.instagram.com/abhi_bhi._/"
                                 style={{ color: "white" }}
@@ -60,7 +60,7 @@ function Footer() {
                             >
                                 <AiFillInstagram />
                             </a>
-                        </li>
+                        </ul>
                     </ul>
                 </Col>
             </Row>

@@ -184,6 +184,7 @@ button:focus {
 .footer-body {
   z-index: 1;
   text-align: center !important;
+  display: flex;
 }
 
 @media (max-width: 767px) {
@@ -193,6 +194,7 @@ button:focus {
 
   .footer-body {
     text-align: center !important;
+
   }
 }
 
@@ -206,7 +208,9 @@ button:focus {
 .footer-icons {
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
+  margin-left: 8em;
   padding: 0 !important;
+  display: flex;
 }
 
 .blockquote-footer {
