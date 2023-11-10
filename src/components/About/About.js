@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
     return (
         <div>
-            <h1>sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+            <h1>ssssssssssssssssss
                 asdsd
                 sdfsdfds
                 dssdfd

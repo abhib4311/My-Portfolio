@@ -5,7 +5,7 @@ body {
   font-family: "Raleway", serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
+
 }
 
 html {
@@ -169,7 +169,7 @@ button:focus {
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(10, 4, 22);
+  background-color: #1E0105 !important;
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important;
@@ -214,5 +214,108 @@ button:focus {
 }
 
 .blockquote-footer {
-  color: #a588c0 !important;
+  color: #E19B1B !important;
+}
+
+
+/* parallax
+/* 
+ */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+#Home-content {
+  background: #210002;
+  padding: 70px;
+
+}
+
+#Home {
+
+  margin: 0 auto;
+
+  color: #ffaf1b;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "Helvetica Neue";
+  color: #ffaf1b;
+  font-size: 20px;
+
+}
+
+
+
+.animation,
+.animation_layer {
+  height: 1000px;
+}
+
+.animation {
+  display: block;
+  position: relative;
+  z-index: 10;
+}
+
+.animation_layer {
+  background-position: bottom center;
+  background-size: auto 1038px;
+  background-repeat: repeat-x;
+  width: 100%;
+  position: absolute;
+}
+
+.animation_layer.parallax {
+  position: fixed;
+}
+
+#artback {
+  background-image: url(./images/background.png);
+}
+
+#mountain {
+  background-image: url(./images/mountains.png);
+}
+
+#logoland {
+  background-image: url(./images/logo_land.png);
+}
+
+#jungle1 {
+  background-image: url(./images/jungle1.png);
+}
+
+#jungle2 {
+  background-image: url(./images/jungle2.png);
+}
+
+#jungle3 {
+  background-image: url(./images/jungle3.png);
+}
+
+#jungle4 {
+  background-image: url(./images/jungle4.png);
+}
+
+#jungle5 {
+  background-image: url(./images/jungle5.png);
+}
+
+.Parallax {
+  z-index: -1;
+}
+
+#manonmountain {
+  background-image: url(./images/man_on_mountain.png);
+}
+
+
+/* homeeeeeeeeeeeeeeeeeeeee
+ */
+
+.h {
+  background: #210002;
+  color: #E19B1B;
+  z-index: 1;
 }
