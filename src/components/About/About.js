@@ -2,7 +2,9 @@ import React from 'react'
 
 function About() {
     return (
-        <div>
+        <div> <br></br>
+            <br></br>
+            <br></br>
             <h1>ssssssssssssssssss
                 asdsd
                 sdfsdfds
@@ -14,23 +16,15 @@ function About() {
                 ssd
 
                 as
-                dasd
 
-                sa
-                dssdasdsds
-                d
-                s
-                sd
-                sd
-                s
-                ds
-                d
-                sd
-                s
-                dsd
-                s
-                sdThis is the about page
-            </h1>
+
+                <br></br>
+                <br></br>
+                <br></br>
+
+
+                c</h1>
+
         </div >
     )
 }

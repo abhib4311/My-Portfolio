@@ -52,7 +52,7 @@ function NavBar() {
                 >
 
 
-
+                    <span></span>
                     <span></span>
                     <span></span>
                     <span></span>
@@ -112,7 +112,7 @@ function NavBar() {
                             <Button
                                 href="https://github.com/abhib4311"
                                 target="_blank"
-                                className="fork-btn-inner"
+                                className="fork-btn-inner btn-warning"
                             >
                                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                                 <AiFillStar style={{ fontSize: "1.1em" }} />
