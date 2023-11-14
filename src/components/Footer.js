@@ -11,7 +11,7 @@ function Footer() {
     let date = new Date();
     let year = date.getFullYear();
     return (
-        <Container className="footer ">
+        <Container fluid className="footer ">
             <Row>
                 <Col md="4" className="footer-copywright align-middle">
                     <h3>Designed and Developed by AbhiBhi</h3>
@@ -33,7 +33,7 @@ function Footer() {
                         </ul>
                         <ul className="social-icons ">
                             <a
-                                // href="#"
+                                href="#"
                                 style={{ color: "white" }}
                                 target="_blank"
                                 rel="noopener noreferrer"
